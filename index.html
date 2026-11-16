@@ -2,25 +2,25 @@
 <html>
 <head>
   <title>Sample JavaScript IO Page</title>
+
+  <script>
+
+  
+</script>
+  
 </head>
 <body>
   <h3>This is a Sample JavaScript and HTML Document.</h3>
 
-<p> What is your name? <input id= "firstname"> <br>
-<button onclick="fname()"> Enter </button>
+<p> First number? <input id="fn"> <br>
+  Second number? <input id="sn"> <br>
+<button onclick="add()"> Add The Numbers </button>
+  
 </p>
 <p>
-  Hi <span id="ans"> ____________ </span></p>  
+  Your answer is <span id="ans"> ____________ </span></p>  
   
-<script>
-function fname() {
-let a = document.getElementById("firstname").value;
-// window.alert(a);  
-document.getElementById("ans").innerHTML = a;
-  
-}
-  
-</script>
+
   
 </body>
 </html>
